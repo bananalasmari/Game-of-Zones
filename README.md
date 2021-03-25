@@ -1,4 +1,4 @@
-![](https://i.imgur.com/gXRzAcl.gif)
+![game of thrones](https://i.imgur.com/gXRzAcl.gif)
 
 # Game of Zones
 
@@ -16,14 +16,14 @@ There are two games below and a bonus section. Complete both games for full cred
 
 ## Assignment
 
-#### Game 1
+### Game 1
 
 What should a user be able to do with the game?
 
 1. When the mouse enters any of the zones change its background color to `green`
 2. When the mouse leaves a zone change its background color back
 3. When you click on a zone it locks its color to green.
->HINT: You probably need to remove some event listeners ([mdn](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener))
+   > HINT: You probably need to remove some event listeners ([mdn](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener))
 4. When all zones are checked green, log a statement of congratulations to the console!
 
 **Before coding anything, PSEUDOCODE out how to approach this game.** Here are some useful questions and notes for you:
@@ -39,9 +39,9 @@ What should a user be able to do with the game?
 - how can you check to see if all the zones are green?
 - if you wrote a function to perform that check, when should the check occur?
 
-![](https://i.imgur.com/BvvVElS.png)
+![game 1 example](https://i.imgur.com/BvvVElS.png)
 
-#### Game 2
+### Game 2
 
 Modify your previous game so that the zones need to be clicked in a particular order. Copy any code you might want to reuse from Game 1 into `starter2.js`, and in `index.html`, switch `starter2.js` to be connected and `starter1.js` to be commented out.
 
@@ -57,4 +57,3 @@ Modify your previous game so that the zones need to be clicked in a particular o
 - what can we reuse from the previous game?
 - how can we check if the zone is supposed the next one in the array?
 - how can we stop something from happening if we only want an event to occur for a correct click?
-
